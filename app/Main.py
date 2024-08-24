@@ -1,4 +1,13 @@
 import streamlit as st
+#config 
+import os 
+import sys
+root_path = os.path.abspath('..')
+if root_path not in sys.path:
+    sys.path.insert(0, root_path)
+script_path=os.path.abspath(os.path.join('..', 'app'))
+if script_path not in sys.path:
+    sys.path.append(script_path)
 st.set_page_config(
     page_title="Solar Radiation Measurement Data",
     # page_icon=''
