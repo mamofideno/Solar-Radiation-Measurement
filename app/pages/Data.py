@@ -11,18 +11,17 @@ tab1, tab2, tab3 = st.tabs(["Bumbuna , Sierra Leon", "Dapaong  Togo", "Malanvill
 
 with tab1:
     st.header("Bumbuna , Sierra Leon Data set Data set")
-    df=DataFrameLoader("../data/sierraleone-bumbuna.csv").load()
+    df=DataFrameLoader("data/sierraleone-bumbuna.csv").load()
     st.dataframe(df)
 with tab2:
     st.header("Dapaong  Togo Data set")
-    df=DataFrameLoader("../data/togo-dapaong_qc.csv").load()
+    df=DataFrameLoader("data/togo-dapaong_qc.csv").load()
     st.dataframe(df)
 with tab3:
     st.header("Malanville , Benin ")
-    df=DataFrameLoader("../data/togo-dapaong_qc.csv").load()
-    df = pd.read_csv("../data/benin-malanville.csv")
+    df=DataFrameLoader("data/togo-dapaong_qc.csv").load()
+    df = pd.read_csv("data/benin-malanville.csv")
     st.dataframe(df)
-    # st.image("https://static.streamlit.io/examples/owl.jpg", width=200)
 
 st.markdown("""
     <style>
