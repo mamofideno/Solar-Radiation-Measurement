@@ -9,6 +9,7 @@ from scripts.dataframe_null_cols import DataFrameNullCols
 from scripts.heatmap import HeatMap
 from scripts.data_summary import DataSummary
 from scripts.dataframe_negative_cols import NegativeValueChecker
+from scripts.check_outlier import OutlierChecker
 
 
 
