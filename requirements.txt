@@ -1,3 +1,7 @@
-seaborn 
-matplotlib
+Name: seaborn
+Version: 0.13.2
+...
+Name: matplotlib
+Version: 3.9.2
+
 pandas
